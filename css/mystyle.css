@@ -1,0 +1,64 @@
+/* mystyle.css */
+
+/* mystyle.css */
+
+/* Specify font family for the entire webpage */
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+/* Styles for the main container */
+#main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Styles for the header */
+#header {
+    background-color: #18588d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the content */
+#content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the footer */
+#footer {
+    background-color: #18588d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* mystyle.css */
+
+/* Styles for links */
+a {
+    color:black; 
+}
+
+/* Styles for the image container */
+#image-container {
+    margin: 20px auto; /* Center the image horizontally */
+}
+
+/* Styles for the video container */
+#video-container {
+    margin: 20px auto; /* Center the video horizontally */
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+
+#words {
+    margin: 0; /* Remove margins to prevent centering */
+}
